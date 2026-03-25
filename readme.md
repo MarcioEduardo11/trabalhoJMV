@@ -74,4 +74,4 @@ O projeto utiliza um sooftware onde os colaboradores juno com o PO desenvolvem o
 ---
 🔗 Links do Projeto
 Trello: (https://trello.com/invite/b/69c316774b131cf8b4410d9b/ATTI2a16bee9aa7fe01612eab6a17e084e2d0F1FC30D/alugel-de-automoveis-bjmv)
-GitHub: (colocar link aqui)
+GitHub: (https://github.com/MarcioEduardo11/trabalhoJMV.git)
