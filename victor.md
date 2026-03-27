@@ -1,3 +1,10 @@
+## Seleção de datas de retirada e devolução 
+
+### Como será feito: 
+Seleção das datas, validação, verificação de disponibilidade e cálculo do valor.
+
+### Para que serve:
+Definir o período, evitar conflitos e calcular o preço do aluguel.
 
 ## Cálculo automático do valor do aluguel
 
