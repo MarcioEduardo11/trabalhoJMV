@@ -6,20 +6,20 @@
 Registrar novos clientes para que possam realizar aluguéis e ter um histórico de uso.
 ## Login de usuários.
 ### Como será feito:
- Campos de entrada (Input) em HTML que consultam o banco de dados via SQL (SELECT) para verificar se o e-mail e a senha coincidem.
+ Campos de entrada (Input) em HTML que consultam o banco de dados via SQL para verificar se o e-mail e a senha coincidem.
 
 ### Para que serve: 
 Autenticar o cliente e garantir que apenas pessoas autorizadas acessem áreas restritas.
 
 ## Logout do sistema.
 ### Como será feito:
- Um botão "Sair" que, ao ser clicado, dispara um comando JavaScript para limpar a sessão (Session/LocalStorage) do navegador.
+ Um botão "Sair" que, ao ser clicado, dispara um comando JavaScript para limpar a sessão do navegador.
 
 ### Para que serve:
  Encerrar a conexão do usuário com segurança, especialmente em computadores públicos.
  ## Recuperação de se senha.
  ### Como será feito:
-  Interface simples para digitar o e-mail. O sistema gera um link ou código via JavaScript/Backend e atualiza a senha no SQL (UPDATE).
+  Interface simples para digitar o e-mail. O sistema gera um link ou código via JavaScript/Backend e atualiza a senha no SQL .
 
 ### Para que serve: 
 Permitir que o usuário recupere o acesso à sua conta sem precisar criar um novo cadastro.
@@ -66,7 +66,7 @@ Facilitar a vida do cliente para encontrar, por exemplo, apenas "SUVs" ou carros
 Efetivar o aluguel e garantir que aquele carro fique bloqueado para outros usuários no período escolhido.
 ## Upload de imagens dos veículos.
 ### Como será feito:
- Utiliza a tag <input type="file"> do HTML para selecionar arquivos. O JavaScript processa o envio da imagem para uma pasta no servidor ou serviço de nuvem.
+ Utiliza a tag do HTML para selecionar arquivos. O JavaScript processa o envio da imagem para uma pasta no servidor ou serviço de nuvem.
 
 ### Para que serve:
  Permitir que o administrador cadastre fotos reais dos carros, tornando o catálogo muito mais atrativo e confiável para o cliente.
