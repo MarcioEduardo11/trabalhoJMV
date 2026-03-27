@@ -18,51 +18,51 @@ O foco deste trabalho está na aplicação de metodologias ágeis (Scrum e Kanba
 
 ---
 
-## 🧑 Papéis e Responsabilidades
+##  Papéis e Responsabilidades
 
-### 📊 Product Owner (PO)
+###  Product Owner (PO)
 
 * Criação do backlog do sistema
 * Definição das prioridades das tarefas
 
-### 🧑‍🏫 Scrum Master (SM)
+### Scrum Master (SM)
 
 * Organização da Sprint
 * Definição dos responsáveis por cada tarefa
 * Definição de prazos
 * Facilitação da equipe
 
-### 👨‍💻 Desenvolvedores
+###  Desenvolvedores
 
 * Execução das tarefas
 * Criação de descrições das atividades realizadas
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+##  Ferramentas Utilizadas
 
 * Trello (quadro Kanban)
 * GitHub (versionamento)
 
 ---
 
-## 📋 Organização do Projeto
+##  Organização do Projeto
 
-### 📌 Backlog
+###  Backlog
 
 Lista de tarefas do sistema com prioridades definidas pelo Product Owner.
 
-### 🚀 Sprint
+###  Sprint
 
 Planejamento das tarefas, responsáveis e prazos definidos pelo Scrum Master.
 
-### 🧾 Documentação Individual
+###  Documentação Individual
 
 Cada desenvolvedor possui um arquivo `.md` com a descrição das atividades realizadas.
 
 ---
 
-## 📊 Quadro Kanban
+##  Quadro Kanban
 
 O projeto utiliza um sooftware onde os colaboradores juno com o PO desenvolvem o passo a passo do trabalho, onde ve seus a fazeres e seus prazos de conclusão.
 
