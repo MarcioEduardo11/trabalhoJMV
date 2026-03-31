@@ -40,21 +40,6 @@ Autenticar o cliente e garantir que apenas pessoas autorizadas acessem áreas re
 ### Para que serve:
  Manter o catálogo de carros atualizado para os clientes.
 
-## Filtro de veículos (preço, tipo, modelo)
-### omo será feito:
- Lógica de filtragem em JavaScript que reorganiza a lista na tela ou faz novas buscas no banco baseadas na escolha do usuário.
-
-### Para que serve: 
-Facilitar a vida do cliente para encontrar, por exemplo, apenas "SUVs" ou carros com "diária até R$ 200".
-## Vizualisar detalhes do veículo.
-### Como será feito:
- Uma página dinâmica onde, ao clicar em um carro, o JavaScript busca as informações completas (ar-condicionado, portas, motorização) daquele ID específico.
-
-### Para que serve:
- Dar transparência ao cliente sobre as características do carro antes de confirmar o aluguel.
- ## Sistema reserva de veículos.
- ### Como será feito:
-  Um calendário em HTML/JS para selecionar datas. O sistema calcula o valor (Dias x Diária) e cria um registro de reserva no banco de dados vinculando o Usuário ao Carro.
 
 ### Para que serve: 
 Efetivar o aluguel e garantir que aquele carro fique bloqueado para outros usuários no período escolhido.
@@ -77,18 +62,8 @@ Efetivar o aluguel e garantir que aquele carro fique bloqueado para outros usuá
 
 ### Para que serve: 
 Permitir um feedback detalhado sobre o estado do carro e o atendimento, aumentando a credibilidade do serviço.
-## Ordenação de Veículos (Preço, Popularidade)
-### Como será feito:
- Um menu de seleção que altera a regra do comando SQL (usando ORDER BY preco ASC ou DESC). O JavaScript recarrega a lista na tela com a nova ordem.
 
-### Para que serve:
- Ajudar o usuário a encontrar rapidamente o carro mais barato ou o mais alugado (popular) da plataforma.
- ## Notificação de reserva confirmada.
- ### Como será feito: 
- Após o sucesso da reserva no banco de dados, o JavaScript dispara um alerta na tela e um script de e-mail é acionado para enviar o comprovante.
 
-### Para que serve:
- Dar segurança ao cliente de que o processo foi finalizado com sucesso e que o carro está garantido.
  ## Notificação de cancelamento.
  ### Como será feito: 
  Quando uma reserva é excluída ou alterada no SQL, o sistema identifica a mudança e envia um aviso automático (e-mail ou pop-up) ao usuário.
